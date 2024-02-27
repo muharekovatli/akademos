@@ -1,0 +1,9 @@
+nota1 = float(input("Nota da primeira prova = "))
+nota2 = float(input("Nota da segunda prova = "))
+faltas = int(input("Número de faltas = "))
+media = (nota1+nota2)/2
+if(media>=70) and (faltas<=5):
+  print("Aprovado!")
+else:
+  print("Reprovado.")
+print(f"Média final = {media:.2f}")
