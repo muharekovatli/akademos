@@ -1,0 +1,2 @@
+num = int(input('Digite um número em base decimal ='))
+print(f"Seu número em base binária correspondente a {num} = {bin(num)[2:]}")
